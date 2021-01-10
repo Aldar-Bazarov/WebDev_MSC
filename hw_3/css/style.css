@@ -1,0 +1,81 @@
+@import url(reset.css);
+/*	header	*/
+.header {
+	width: 1440px;
+	height: 60px;
+	background-color: #FE1A19;
+}
+
+.header div {	
+	position: relative;
+	left: 20px;
+	top: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+}
+/*	main	*/
+.main {
+	width: 1440px;
+	height: 904px;
+	background-color: white;
+}
+
+.section {
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	top: 52px;
+}
+
+.section.first {
+	left: 70px;
+}
+.section.second {
+	left: 120px;
+}
+.section.third {
+	left: 170px;
+}
+h1 {
+	position: relative;
+	top: 33px;
+	left: 33px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: black;
+}
+p {
+	position: relative;
+	top: 97px;
+	left: 33px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	color: black;
+}
+/*	footer	*/
+.footer {
+	width: 1440px;
+	height: 60px;
+	background-color: #FE1A19;
+}
+
+.footer div {
+	position: relative;
+	left: 20px;
+	top: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+}

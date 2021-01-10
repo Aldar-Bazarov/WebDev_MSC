@@ -1,0 +1,149 @@
+@import url(reset.css);
+/*	header	*/
+header {
+	position: fixed;
+	width: 1440px;
+	height: 140px;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	background: white;
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+
+	color: #E50043;
+}
+header div {
+	width: 140px;
+	height: 40px;
+}
+header a {
+	width: 150px;
+	height: 40px;
+	text-decoration: none;
+	color: #E50043;
+}
+/*	main	*/
+.image {
+	position: relative;
+	width: 1440px;
+	height: 950px;
+	top: 140px;
+	background-image: url(../img/evian_origins_logo.png);
+}
+/*	bio	*/
+.bio {
+	position: relative;
+	width: 1440px;
+	height: 580px;
+	background-color: white;
+	display: flex;
+}
+.bio div {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin: auto;
+	display: flex;
+}
+.bio p {
+	width: 992px;
+	height: 232px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	color: black;
+	margin: auto;
+}
+/*	imgs	*/
+.imgs {
+	position: relative;
+	width: 1440px;
+	height: 969px;
+	background-color: white;
+	display: flex;
+	align-content: space-around;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.imgs img {
+	width: 281px;
+	height: 863px;
+}
+.imgs p {
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+/*	structure	*/
+.structure {
+	position: relative;
+	width: 1440px;
+	height: 580px;
+	background-color: white;
+	display: flex;
+}
+.structure div {
+	width: 1040px;
+	height: 280px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin: auto;
+	display: flex;
+}
+.structure img {
+	position: relative;
+	top: 30px;
+	left: 80px;
+	width: 101px;
+	height: 220px;
+}
+.structure p {
+	position: relative;
+	top: 30px;
+	left: 181px;
+	width: 749px;
+	height: 220px;
+
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+
+	color: #000000;
+}
+
+/*	footer	*/
+footer {
+	position: relative;
+	width: 1440px;
+	height: 140px;
+	background-color: #F8BFC7;
+}
+
+footer div {
+	position: relative;
+	top: 50px;
+	left: 50px;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+
+	color: white;
+}
